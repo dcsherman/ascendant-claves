@@ -9,3 +9,6 @@ library of PowerShell scripts to facilitate network maintenance
 	
 	DHCPSurvey
 	A script to report leases and scopes for all active DHCP servers in Active Directory, all scopes on all DHCP servers and outputs all leases in all of those scopes.
+	
+	ScanForShares
+	A script to scan selected Windows Servers from Active Directory and discover their shared volumes using Windows Management Instrumentation ("WMI") extensions.
