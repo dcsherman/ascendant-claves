@@ -1,15 +1,3 @@
-####################################################
-#
-# Title: Discover-Shares
-# Date Created : 2017-10-31
-# Last Edit: 2017-12-29
-# Author : Andrew Ellis
-# GitHub: https://github.com/AndrewEllis93/PowerShell-Scripts
-#
-# This function discovers all Windows Servers from Active Directory and discovers their file shares using WMI.
-#
-####################################################
-
 Function Discover-Shares {
     param([boolean]$FilterShares = $True,
         [string]$DomainContoller)
