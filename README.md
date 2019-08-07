@@ -12,3 +12,6 @@ library of PowerShell scripts to facilitate network maintenance
 	
 	ScanForShares
 	A script to scan selected Windows Servers from Active Directory and discover their shared volumes using Windows Management Instrumentation ("WMI") extensions.
+	
+	RuntimeReports
+	Reads through event logs at each node to determine the start-up and shutdown times for each computer. From these values, the total downtime for each computer may be calculated.
