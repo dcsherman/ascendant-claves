@@ -15,3 +15,6 @@ library of PowerShell scripts to facilitate network maintenance
 	
 	RuntimeReports
 	Reads through event logs at each node to determine the start-up and shutdown times for each computer. From these values, the total downtime for each computer may be calculated.
+	
+	ReportOldComputers
+	Sorts through computers found in Active Directory, lists them according to active DNS records and online/offline status
