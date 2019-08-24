@@ -18,3 +18,8 @@ library of PowerShell scripts to facilitate network maintenance
 	
 	ReportOldComputers
 	Sorts through computers found in Active Directory, lists them according to active DNS records and online/offline status
+	
+	PreScavengeProcess
+	This script will report on all dynamic DNS records in a particular AD-integrated DNS zone that
+	are at risk of being scavenged by the DNS scavenging process. (Ex. ">Get-RecordsToBeScavenged.ps1 -DnsZone myzone -WarningDays 5" will find all DNS records in the zone 'myzone' that are set to be scavenged within 5 days.
+
