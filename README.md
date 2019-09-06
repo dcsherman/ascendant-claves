@@ -22,4 +22,7 @@ library of PowerShell scripts to facilitate network maintenance
 	PreScavengeProcess
 	This script will report on all dynamic DNS records in a particular AD-integrated DNS zone that
 	are at risk of being scavenged by the DNS scavenging process. (Ex. ">Get-RecordsToBeScavenged.ps1 -DnsZone myzone -WarningDays 5" will find all DNS records in the zone 'myzone' that are set to be scavenged within 5 days.
+	
+	BackupForWebsiteLogs
+	Function for backing up performance and activity logs for resident IIS web server.
 
